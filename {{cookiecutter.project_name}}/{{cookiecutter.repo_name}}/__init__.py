@@ -1,10 +1,9 @@
 
-class Default(object):
+LEONARDO_APPS = [
+    '{{ cookiecutter.repo_name }}',
+    'leonardo_module_analytics'
+]
 
-    apps = [
-        'leonardo_theme_bootswatch',
-        'leonardo_module_analytics'
-        ]
-
-
-default = Default()
+LEONARDO_JS_FILES = []
+LEONARDO_SCSS_FILES = []
+LEONARDO_CSS_FILES = []

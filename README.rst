@@ -15,9 +15,7 @@ Installation
 
     cookiecutter cookiecutter-leonardo-theme
 
-This template requires Cookiecutter 1.1 +, because we need copy without render::
-
-	pip install -e git+https://github.com/audreyr/cookiecutter.git#egg=cookiecutter
+This cookiecutter template requires Cookiecutter 1.1 +
 
 Read More
 =========
