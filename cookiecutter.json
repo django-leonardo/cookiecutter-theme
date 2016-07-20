@@ -1,6 +1,6 @@
 {
-    "project_name": "leonardo-theme",
-    "repo_name": "{{ cookiecutter.project_name|replace('-', '_') }}",
+    "project_name": "foo",
+    "repo_name": "leonardo_theme_{{cookiecutter.project_name}}",
     "author_name": "Your Name",
     "author_email": "Your email",
     "description": "A short description of the project.",
@@ -8,5 +8,5 @@
     "_copy_without_render": [
         "*.html"
     ],
-    "year": "2015"
+    "year": "2016"
 }

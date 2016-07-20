@@ -1,6 +1,6 @@
 
 =========================
-Leonardo {{ cookiecutter.project_name }} Theme
+Leonardo {{ cookiecutter.project_name|capitalize }} Theme
 =========================
 
 {{ cookiecutter.description }}
@@ -10,7 +10,7 @@ Installation
 
 .. code-block:: bash
 
-    pip install {{ cookiecutter.project_name }}
+    pip install leonardo-theme-{{ cookiecutter.project_name }}
 
 After installation don't forget run ``sync_all`` command.
 
